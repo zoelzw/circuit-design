@@ -1,0 +1,110 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 1 2
+Title "ESP32Basic"
+Date "2021-07-10"
+Rev "1"
+Comp "Into"
+Comment1 "my first PCB"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L RF_Module:ESP32-WROOM-32D U1
+U 1 1 60EA0805
+P 5300 3250
+F 0 "U1" H 5300 4831 50  0000 C CNN
+F 1 "ESP32-WROOM-32D" H 5300 4740 50  0000 C CNN
+F 2 "RF_Module:ESP32-WROOM-32" H 5300 1750 50  0001 C CNN
+F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf" H 5000 3300 50  0001 C CNN
+	1    5300 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60EA82F6
+P 7700 2600
+F 0 "R?" V 7600 2600 50  0000 C CNN
+F 1 "30K" V 7700 2600 50  0000 C CNN
+F 2 "" V 7630 2600 50  0001 C CNN
+F 3 "~" H 7700 2600 50  0001 C CNN
+	1    7700 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60EA88A7
+P 7650 2150
+F 0 "R?" V 7550 2150 50  0000 C CNN
+F 1 "10K" V 7650 2150 50  0000 C CNN
+F 2 "" V 7580 2150 50  0001 C CNN
+F 3 "~" H 7650 2150 50  0001 C CNN
+	1    7650 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60EA92D0
+P 7350 1750
+F 0 "C?" H 7465 1796 50  0000 L CNN
+F 1 "C" H 7465 1705 50  0000 L CNN
+F 2 "" H 7388 1600 50  0001 C CNN
+F 3 "~" H 7350 1750 50  0001 C CNN
+	1    7350 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60EA970A
+P 7800 1750
+F 0 "C?" H 7915 1796 50  0000 L CNN
+F 1 "C" H 7915 1705 50  0000 L CNN
+F 2 "" H 7838 1600 50  0001 C CNN
+F 3 "~" H 7800 1750 50  0001 C CNN
+	1    7800 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_ALT D?
+U 1 1 60EAA16D
+P 8300 3600
+F 0 "D?" H 8293 3817 50  0000 C CNN
+F 1 "LED_ALT" H 8293 3726 50  0000 C CNN
+F 2 "" H 8300 3600 50  0001 C CNN
+F 3 "~" H 8300 3600 50  0001 C CNN
+	1    8300 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_ALT D?
+U 1 1 60EAD8F6
+P 8350 3100
+F 0 "D?" H 8343 3317 50  0000 C CNN
+F 1 "LED_ALT" H 8343 3226 50  0000 C CNN
+F 2 "" H 8350 3100 50  0001 C CNN
+F 3 "~" H 8350 3100 50  0001 C CNN
+	1    8350 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60EB3FD2
+P 6850 3150
+F 0 "R?" V 6950 3100 50  0000 L CNN
+F 1 "R" V 6850 3100 50  0000 L CNN
+F 2 "" V 6780 3150 50  0001 C CNN
+F 3 "~" H 6850 3150 50  0001 C CNN
+	1    6850 3150
+	0    1    1    0   
+$EndComp
+$Sheet
+S 1950 5500 850  750 
+U 60EB52B4
+F0 "USB IN" 50
+F1 "USBIn.sch" 50
+$EndSheet
+$EndSCHEMATC
